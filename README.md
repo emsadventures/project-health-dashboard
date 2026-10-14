@@ -2,9 +2,6 @@
 Python and Streamlit dashboard for analyzing Microsoft Planner project data.
 
 # Project Health Dashboard
-
-This project started as a way to learn Python while building something related to my day-to-day work in project management.
-
 The dashboard uses sample Microsoft Planner-style task data to calculate project health metrics, visualize schedules, identify risks, and provide a simple Project Advisor that can answer basic questions using project data.
 
 ## What It Does
@@ -19,7 +16,7 @@ The dashboard uses sample Microsoft Planner-style task data to calculate project
 
 ## Why I Built It
 
-I wanted a project that combined project management concepts with Python, data analysis, visualization, and application development.
+I wanted a project that combined project management concepts with Python, data analysis, visualization, and application development. I built this as a first attempt at real world coding that may have applications to some of my current work.
 
 This was also an opportunity to learn:
 
