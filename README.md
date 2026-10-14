@@ -1,40 +1,39 @@
 # project-health-dashboard
 Python and Streamlit dashboard for analyzing Microsoft Planner project data.
-Project Health Dashboard
 
-A Python and Streamlit dashboard that analyzes Microsoft Planner-style project data and transforms it into actionable project insights.
-# 📊 Project Health Dashboard
+# Project Health Dashboard
 
-A Python and Streamlit dashboard for analyzing project health using Microsoft Planner-style project data.
+This project started as a way to learn Python while building something related to my day-to-day work in project management.
 
-## Features
+The dashboard uses sample Microsoft Planner-style task data to calculate project health metrics, visualize schedules, identify risks, and provide a simple Project Advisor that can answer basic questions using project data.
 
-- Project health scoring (Green / Yellow / Red)
-- KPI dashboard
-- Gantt chart visualization
-- Tasks by bucket analysis
-- Phase completion tracking
-- Upcoming task reporting
-- Schedule anomaly detection
-- Interactive Project Advisor
+## What It Does
 
-## Technology Stack
+- Calculates project completion metrics
+- Tracks completed, in-progress, and not-started tasks
+- Flags late tasks
+- Displays project health status
+- Visualizes schedules with a Gantt chart
+- Summarizes task status by phase
+- Provides a basic Project Advisor interface
+
+## Why I Built It
+
+I wanted a project that combined project management concepts with Python, data analysis, visualization, and application development.
+
+This was also an opportunity to learn:
 
 - Python
-- Streamlit
 - Pandas
-- Matplotlib
-- OpenPyXL
-- Git
-- GitHub
+- Streamlit
+- Git and GitHub
+- Basic application architecture
 
-## Architecture
+## Project Structure
 
 ```text
-Sample Project Data
-        ↓
-planner_client.py
-        ↓
-dashboardV2.py
-        ↓
-ai_client.py
+dashboardV2.py      Main dashboard application
+planner_client.py   Data loading and preparation
+ai_client.py        Project Advisor logic
+config.py           Configuration settings
+requirements.txt    Project dependencies
