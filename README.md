@@ -1,5 +1,3 @@
-# project-health-dashboard
-Python and Streamlit dashboard for analyzing Microsoft Planner project data.
 
 # Project Health Dashboard
 The dashboard uses sample Microsoft Planner-style task data to calculate project health metrics, visualize schedules, identify risks, and provide a simple Project Advisor that can answer basic questions using project data.
