@@ -1,0 +1,5 @@
+requiremnts.txt
+streamlit
+pandas
+openpyxl
+matplotlib
